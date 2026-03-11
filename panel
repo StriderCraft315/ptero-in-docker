@@ -82,7 +82,7 @@ services:
     restart: always
 
   panel:
-    image: FROM ghcr.io/pterodactyl/panel:v1.11.11
+    image: ghcr.io/pterodactyl/panel:v1.11.11
     restart: always
     ports:
       - "8030:80"
